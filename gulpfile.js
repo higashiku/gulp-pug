@@ -5,7 +5,6 @@
 var gulp    = require('gulp');         /* gulp本体 */
 var fs      = require('fs');           /* ファイルやディレクトリの操作 */
 var plumber = require('gulp-plumber'); /* エラーでタスクが強制停止することを防止 */
-var replace = require('gulp-replace'); /* テキスト置き換え */
 var watch   = require('gulp-watch');   /* ファイルの更新を監視 */
 var pug     = require('gulp-pug');     /* PugをHTMLに変換 */
 
